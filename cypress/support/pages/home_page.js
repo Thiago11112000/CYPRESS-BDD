@@ -6,4 +6,5 @@ export default{
         cy.get('.fa-user')
         .click()
     }
+    
 }
