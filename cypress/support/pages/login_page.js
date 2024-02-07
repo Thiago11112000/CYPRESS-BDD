@@ -9,7 +9,7 @@ export default{
   checErrorkMessage(messagen){
     cy.get('.invalid_input')
     .should('have.text', messagen )
-},
+  },
 fillEmail(email){
     cy.get('#user')
     .should('be.visible')
